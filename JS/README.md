@@ -2,6 +2,9 @@
 
 ---
 
-Upgrade from previous version: [Scribd Bypass Python Version](https://github.com/sussynk/Scribd-Bypass)
+## Status:
 
-Still under construction, but fundamentals are good
+* [ ] Functional loading webpage
+* [ ] Layout styling
+* [ ] JavaScript processes the URL
+* [ ] Integrated/Embed output
