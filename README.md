@@ -1,6 +1,6 @@
 # Scribd-Viewer
 
-Scribd-Viewer is a Python program designed to help users access Scribd document files for educational purposes in a user-friendly manner.
+Scribd-Viewer is a Python/JavaScript program designed to help users access Scribd document files for educational purposes in a user-friendly manner.
 
 # How does it work?
 
