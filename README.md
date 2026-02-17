@@ -1,6 +1,6 @@
-# Scribd-Bypass
+# Scribd-Viewer
 
-Scribd-Bypass is a Python program designed to help users access Scribd document files for educational purposes in a user-friendly manner.
+Scribd-Viewer is a Python program designed to help users access Scribd document files for educational purposes in a user-friendly manner.
 
 # Why I created this program.
 
