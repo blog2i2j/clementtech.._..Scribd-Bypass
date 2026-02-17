@@ -33,7 +33,7 @@ if re.match(link_format, url):
         sys.exit("Link opened in your default browser.")
 
     else:
-        sys.exit("Thank you for trying Scribd-Bypass!")
+        sys.exit("Thank you for trying Scribd-Viewer!")
 
 else:
     sys.exit("Invalid Scribd URL, Please try again.")
