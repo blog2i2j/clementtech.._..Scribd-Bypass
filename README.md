@@ -2,6 +2,9 @@
 
 Scribd-Viewer (previously known as Scribd-Bypass) is a Python/JavaScript program designed to help users access Scribd document files for educational purposes in a user-friendly manner.
 
+# Project Status
+Currently in progress of adding JavaScript version to enable seamless use via Web, however still figuring out on html forms and JavaScript connection
+
 # How does it work?
 
 ### How normal Scribd document link looks like:
