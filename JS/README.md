@@ -1,4 +1,4 @@
-# **Scribd-Bypass-JS**
+# **Scribd-Viewer-JS**
 
 ---
 
