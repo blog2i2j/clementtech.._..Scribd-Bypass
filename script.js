@@ -2,6 +2,10 @@ const form = document.getElementById("form");
 
 const output = document.getElementById("output");
 
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+});
+
 // console.log(scribd_link);
 
 // const link_format = new URL(scribd_link);
