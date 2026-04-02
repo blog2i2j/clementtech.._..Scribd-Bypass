@@ -4,6 +4,11 @@ const output = document.getElementById("output");
 
 form.addEventListener("submit", function (event) {
     event.preventDefault();
+
+    const scribd_link = document.getElementById("scribd_link").value;
+
+    // output = `test: ${scribd_link}`;
+    alert(${scribd_link});
 });
 
 // console.log(scribd_link);
