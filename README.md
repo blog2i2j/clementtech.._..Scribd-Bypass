@@ -8,6 +8,8 @@ The web version is ready and open for use now! No longer need to download anythi
 
 Currently working on nice GUI and PDF embedded.
 
+I am lazy to design the GUI, so I will just vibe code it :D
+
 # How does it work?
 
 ### How normal Scribd document link looks like:
