@@ -7,94 +7,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <!-- Header -->
-      <header class="header">
-        <div class="header-content">
-          <h1 class="title">
-            <span class="icon">📄</span> Scribd Viewer
-          </h1>
-          <p class="subtitle">Convert Scribd document links to embeddable content</p>
-        </div>
-        <div class="disclaimer">⚠️ For educational purposes only</div>
-      </header>
+    <h1>Scribd Viewer JS</h1>
+    <h4>For educational purposes only, no warranty provided.</h4>
 
-      <!-- Main Content -->
-      <main class="main-content">
-        <!-- Input Section -->
-        <section class="input-section">
-          <div class="card">
-            <form id="form" class="form">
-              <div class="form-group">
-                <label for="scribd_link" class="label">
-                  <span class="label-text">Scribd Document URL</span>
-                  <span class="label-hint">Enter your Scribd document link</span>
-                </label>
-                <div class="input-wrapper">
-                  <span class="input-icon">🔗</span>
-                  <input
-                    type="url"
-                    name="url"
-                    id="scribd_link"
-                    placeholder="https://www.scribd.com/document/123456789/..."
-                    pattern="^https://www.scribd.com/document/[0-9]{9}/.+$"
-                    minlength="45"
-                    required
-                  />
-                </div>
-              </div>
-              <button type="submit" id="submit" class="submit-btn">
-                <span class="btn-text">Convert Link</span>
-                <span class="btn-icon">→</span>
-              </button>
-            </form>
-          </div>
-        </section>
-
-        <!-- Output Section -->
-        <section class="output-section" id="outputSection" style="display: none;">
-          <div class="card">
-            <h2 class="section-title">✨ Converted Link</h2>
-            <div class="output-container">
-              <a id="outputLink" href="" target="_blank" rel="noopener noreferrer" class="output-link">
-                <p id="output" class="output-text"></p>
-              </a>
-              <button class="copy-btn" id="copyBtn">
-                <span id="copyText">📋 Copy</span>
-              </button>
-            </div>
-            <p class="output-hint">Click the link to open or use the copy button</p>
-          </div>
-        </section>
-
-        <!-- Features -->
-        <section class="features">
-          <div class="feature-grid">
-            <div class="feature-card">
-              <span class="feature-icon">⚡</span>
-              <h3>Fast</h3>
-              <p>Instant link conversion</p>
-            </div>
-            <div class="feature-card">
-              <span class="feature-icon">🛡️</span>
-              <h3>Safe</h3>
-              <p>No data stored or tracked</p>
-            </div>
-            <div class="feature-card">
-              <span class="feature-icon">📱</span>
-              <h3>Works Everywhere</h3>
-              <p>Mobile and desktop friendly</p>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <!-- Footer -->
-      <footer class="footer">
-        <p>Built for educational purposes • No warranty provided</p>
-      </footer>
+    <div class="form">
+      <form id="form">
+        <h2>Document Link:</h2>
+        <input
+          type="url"
+          name="url"
+          id="scribd_link"
+          placeholder="https://www.scribd.com/document/"
+          pattern="^https://www.scribd.com/document/[0-9]{9}/.+$"
+          minlength="45"
+          required
+        />
+        <button type="submit" id="submit">Submit</button>
+      </form>
     </div>
 
+    <a id="outputLink" href="" target="_blank" rel="noopener noreferrer"><p id="output"></p></a>
     <script src="script.js"></script>
   </body>
 </html>
