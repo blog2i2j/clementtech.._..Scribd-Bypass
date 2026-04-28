@@ -2,14 +2,6 @@
 
 Scribd-Viewer (previously known as Scribd-Bypass) is a Python/JavaScript program designed to help users access Scribd document files for educational purposes in a user-friendly manner.
 
-# Project Status
-
-The web version is ready and open for use now! No longer need to download anything.
-
-Currently working on nice GUI and PDF embedded.
-
-I am lazy to design the GUI, so I will just vibe code it :D
-
 # How does it work?
 
 ### How normal Scribd document link looks like:
@@ -82,11 +74,6 @@ https://www.scribd.com/document/{document_id}/{document_title}
 5. Please star the project if you find it useful. It helps me a lot and motivates me to work on more projects like this one.
 
    - Also please feel free to create an issue if you find any bugs or have any suggestions for improvement.
-
-# Current Roadmap:
-
-- [ ] Integration with Telegram bot for easy access.
-- [X] Web application for easy access. (Merged into the current repo)
 
 # Disclaimer:
 
